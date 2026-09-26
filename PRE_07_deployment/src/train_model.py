@@ -1,8 +1,8 @@
 import os
 import pickle
 
-import pandas as pd
-from sklearn.linear_model import LinearRegression
+import pandas as pd  # type: ignore
+from sklearn.linear_model import LinearRegression  # type: ignore
 
 FOLDER = "PRE_07_deployment"
 

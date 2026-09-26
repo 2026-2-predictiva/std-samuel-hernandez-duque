@@ -4,7 +4,7 @@ import pandas as pd  # type: ignore
 from flask import Flask, render_template, request  # type: ignore
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "change-this"
+app.config["SECRET_KEY"] = "you-will-never-guess"
 
 FOLDER = "PRE_07_deployment"
 
